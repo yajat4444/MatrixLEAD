@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrix 3.0</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">LEAD</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Sponsors</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="content">
+        <div class="cards">
+          <div class="card" id="circle" onclick="selectCard('circle')">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="card.jpg" alt="circle challenge">
+              </div>
+              <div class="card-back">
+                <h2>Circle Challenge</h2>
+                <p>Decode the mystery of the circle and test your skills in this thrilling challenge.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card" id="triangle" onclick="selectCard('triangle')">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="card.jpg" alt="triangle tactician">
+              </div>
+              <div class="card-back">
+                <h2>Triangle Tactician</h2>
+                <p>Use your wits to conquer the triangle in this strategic challenge.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card" id="square" onclick="selectCard('square')">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="card.jpg" alt="square sprint">
+              </div>
+              <div class="card-back">
+                <h2>Square Sprint</h2>
+                <p>Outpace your rivals and claim victory in the ultimate square showdown.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1>MATRIX 3.0</h1>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
